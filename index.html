@@ -140,18 +140,24 @@
             <div class="col-lg-4 col-12 p-0 mt-small-65">
                 <div class="capability-right left-42 pr-100 pr-50 pr-0px pb-small-15">
                     <div class="position-relative p-small-43 text-center-sm">
-                        <a>
-                            <span class="font-weight-700" style="color:#3e3a5c;">03</span>
-                        </a>
+                        <!-- <ol>
+                            <li class="font-weight-700 number-text" style="color:#3e3a5c;">1</li>
+                            <li class="font-weight-700 number-text" style="color:#3e3a5c;">2</li>
+                            <li class="font-weight-700 number-text" style="color:#3e3a5c;">3</li>
+                            <li class="font-weight-700 number-text" style="color:#3e3a5c;">4</li>
+                            <li class="font-weight-700 number-text" style="color:#3e3a5c;">5</li>
+                            <li class="font-weight-700 number-text" style="color:#3e3a5c;">6</li>
+                        </ol> -->
                         <ul class="d-flex cursor-pointer ml-small-36">
-                            <li class="black-circle"></li>
-                            <li class="black-circle ml-2"></li>
-                            <li class="black-circle ml-2" style="background-color: #19203e;"></li>
-                            <li class="black-circle ml-2"></li>
-                            <li class="black-circle ml-2"></li>
-                            <li class="black-circle ml-2"></li>
+                            <li class="black-circle dot" onclick="currentSlide(1)"></li>
+                            <li class="black-circle ml-2 dot" onclick="currentSlide(2)"></li>
+                            <li class="black-circle ml-2 dot" onclick="currentSlide(3)"></li>
+                            <li class="black-circle ml-2 dot" onclick="currentSlide(4)"></li>
+                            <li class="black-circle ml-2 dot" onclick="currentSlide(5)"></li>
+                            <li class="black-circle ml-2 dot" onclick="currentSlide(6)"></li>
                         </ul>
-                        <div class="mt-15">
+                        <div class="mt-15 text-slide">
+                            <p class="font-weight-700 number-text sm-ml-39" style="color:#3e3a5c;">1</p>
                             <h3 class="text-left-lg text-center-sm heading-2 mt-3 bg-gradient-black">
                                 Design Studio
                             </h3>
@@ -171,25 +177,205 @@
                                 exclusive collections three times a year - January. April and September, While
                                 developing new designs throughout the year.
                             </p>
+                            <div class="d-flex capability-button">
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4" onclick="plusSlides(-1)">
+                                    <img src="./images/up-arrow.png" class="" width="50" height="22">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>0</span>
+                                    </span>
+                                </a>
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4 ml-auto"
+                                    onclick="plusSlides(1)">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>2</span>
+                                    </span>
+                                    <img src="./images/up-arrow (2).png" class="" width="50" height="22">
+                                </a>
+                            </div>
                         </div>
-                        <div class="d-flex">
-                            <a class="d-flex text-decoration-none cursor-pointer mt-4">
-                                <img src="./images/up-arrow.png" class="" width="50" height="22">
-                                <span class="clr-413833 pl-1 font-weight-700 fs-14"
-                                    style="font-family: CentraNo2-Medium;">
-                                    Capability
-                                    <span>2</span>
-                                </span>
-                            </a>
-                            <a class="d-flex text-decoration-none cursor-pointer mt-4 ml-auto">
-                                <span class="clr-413833 pl-1 font-weight-700 fs-14"
-                                    style="font-family: CentraNo2-Medium;">
-                                    Capability
-                                    <span>4</span>
-                                </span>
-                                <img src="./images/up-arrow (2).png" class="" width="50" height="22">
-                            </a>
+
+                        <div class="mt-15 text-slide">
+                            <p class="font-weight-700 number-text sm-ml-39" style="color:#3e3a5c;">2</p>
+                            <P class="mission-para text-left lh-170 lh-125" style="color: #414256;">
+                                Given this well-equipped & versatile environment, customisation and innovation are our
+                                biggest strengths as our design growth aspires to challenge the ordinary. With great
+                                pride we annually showcase our collections in many international fairs where we can
+                                discuss projects with our customers as well as keep up with the latest trends.
+                            </P>
+                            <p class="mission-para text-left lh-170 lh-125" style="color: #414256;">
+                                We take pride in our most versatile design studios, creating widest product range in the
+                                industry to cater to every market segment.
+                            </p>
+                            <p class="mission-para text-left lh-170 lh-125 d-none d-lg-block d-sm-block"
+                                style="color: #414256;">
+                                “Beautiful Economic range for the Masses to Exquisite classy royal collections for the
+                                riches”
+                            </p>
+                            <div class="d-flex">
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4" onclick="plusSlides(-1)">
+                                    <img src="./images/up-arrow.png" class="" width="50" height="22">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>1</span>
+                                    </span>
+                                </a>
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4 ml-auto"
+                                    onclick="plusSlides(1)">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>3</span>
+                                    </span>
+                                    <img src="./images/up-arrow (2).png" class="" width="50" height="22">
+                                </a>
+                            </div>
                         </div>
+
+                        <div class="mt-15 text-slide">
+                            <p class="font-weight-700 number-text sm-ml-39" style="color:#3e3a5c;">3</p>
+                            <h3 class="text-left-lg text-center-sm heading-2 mt-3 bg-gradient-black">
+                                Infrastructure
+                            </h3>
+                            <P class="mission-para text-left lh-170 lh-125" style="color: #414256;">
+                                Production facility is the spine of any company into manufacturing, as it defines the
+                                capacity &amp; capability of the organization and provides confidence and an assurance.
+                            </P>
+                            <p class="mission-para text-left lh-170 lh-125" style="color: #414256;">
+                                A state – of – art vertically integrated state of the art plant in Bangalore, India is
+                                where all the beautiful products are created and produced. Every year over 1.50 Million
+                                meters of fabrics flows out of the facility to decorate homes and living spaces across
+                                the globe.
+                            </p>
+                            <p class="mission-para text-left lh-170 lh-125 d-none d-lg-block d-sm-block"
+                                style="color: #414256;">
+                                Exuding highest respect for the raising concerns on the environment, our plant through
+                                its latest technology of effluent treatment makes sure every drop of the effluent is
+                                treated, recycled and controlled.
+                            </p>
+                            <div class="d-flex">
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4" onclick="plusSlides(-1)">
+                                    <img src="./images/up-arrow.png" class="" width="50" height="22">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>2</span>
+                                    </span>
+                                </a>
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4 ml-auto"
+                                    onclick="plusSlides(1)">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>4</span>
+                                    </span>
+                                    <img src="./images/up-arrow (2).png" class="" width="50" height="22">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-15 text-slide">
+                            <p class="font-weight-700 number-text sm-ml-39" style="color:#3e3a5c;">4</p>
+                            <P class="mission-para text-left lh-170 lh-125" style="color: #414256;">
+                                In addition to our in-house capacity, we believe in supporting a large community of
+                                specialized weavers from handlooms, pit looms and power looms, block printing, manual
+                                embroideries, to bring out the best in them. Intelligent mix of our creativity and the
+                                non-mechanized skill of these artisans brings out some most beautiful and mind-blowing
+                                products and this exactly what inspires the Designers of global brands to work with us.
+                            </P>
+                            <p class="mission-para text-left lh-170 lh-125" style="color: #414256;">
+                                Factory is well equipped to adept with variety of materials including silk, linen,
+                                cotton, wool, polyester, acrylic, nylon, viscose, numerous varieties of blended and
+                                fancy yarns, allowing our designers to explore their creativity with no limitations.
+                            </p>
+                            <div class="d-flex">
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4" onclick="plusSlides(-1)">
+                                    <img src="./images/up-arrow.png" class="" width="50" height="22">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>3</span>
+                                    </span>
+                                </a>
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4 ml-auto"
+                                    onclick="plusSlides(1)">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>5</span>
+                                    </span>
+                                    <img src="./images/up-arrow (2).png" class="" width="50" height="22">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-15 text-slide">
+                            <p class="font-weight-700 number-text sm-ml-39" style="color:#3e3a5c;">5</p>
+                            <P class="mission-para text-left lh-170 lh-125" style="color: #414256;">
+                                Good infrastructure in well complimented by a great team comprising of well experienced
+                                qualified engineers, technicians and skilled workforce. We ensure every precautionary
+                                care at its premises for the safety and health of all our employees, associates and the
+                                material across different stages in the supply chain of the manufacturing process. As a
+                                result of these efforts, we boast of great loyalty of the team reflects in almost zero
+                                attrition rate in our manpower.
+                            </P>
+                            <div class="d-flex">
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4" onclick="plusSlides(-1)">
+                                    <img src="./images/up-arrow.png" class="" width="50" height="22">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>4</span>
+                                    </span>
+                                </a>
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4 ml-auto"
+                                    onclick="plusSlides(1)">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>6</span>
+                                    </span>
+                                    <img src="./images/up-arrow (2).png" class="" width="50" height="22">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-15 text-slide">
+                            <p class="font-weight-700 number-text sm-ml-39" style="color:#3e3a5c;">6</p>
+                            <h3 class="text-left-lg text-center-sm heading-2 mt-3 bg-gradient-black">
+                                Quality Control
+                            </h3>
+                            <P class="mission-para text-left lh-170 lh-125" style="color: #414256;">
+                                Quality Policy is ‘NO COMPROMISE’. A team with qualified and experienced textile
+                                engineers who scrutinize the products at every level of production. Quality inspectors
+                                make sure to check every inch of the fabric under stringent norms and certify against
+                                international quality standards.
+                            </P>
+                            <div class="d-flex">
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4" onclick="plusSlides(-1)">
+                                    <img src="./images/up-arrow.png" class="" width="50" height="22">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>5</span>
+                                    </span>
+                                </a>
+                                <a class="d-flex text-decoration-none cursor-pointer mt-4 ml-auto"
+                                    onclick="plusSlides(1)">
+                                    <span class="clr-413833 pl-1 font-weight-700 fs-14"
+                                        style="font-family: CentraNo2-Medium;">
+                                        Capability
+                                        <span>1</span>
+                                    </span>
+                                    <img src="./images/up-arrow (2).png" class="" width="50" height="22">
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -200,56 +386,384 @@
         <div class="row mt-15">
             <div class="col-lg-6 col-12 mt-60-lg">
                 <h2 class="p-0 text-left-lg text-center-sm heading-1">news</h2>
-                <div class="-mt-64 -mt-25 ml-60 ml-small-0 mt-small-30">
-                    <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
-                        <div class="news-img w-100 h-500">
-                        </div>
-                    </div>
-                    <div class="sticker-1 bottom-small-66 left-small-15">
-                        <div class="sticker-bg">
-                            <h4 class="sticker-text">May 2020</h4>
-                        </div>
-                    </div>
-                    <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
-                        <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This Bengaluru-based home
-                            textiles
-                            company makes Rs 75 Cr
-                            turnover, eyes Rs 500 Cr.</div>
-                        <div class="text-left m-10-auto-25">
-                            <button class="cursor-pointer sticker-btn">
-                                Read More <span><img src="./images/gold-right.png" class="ml-2" width="45" height="12"></span>
-                            </button>
+                <div class="-mt-64 -mt-25 ml-144 ml-small-0 mt-small-30 d-none d-lg-block">
+                    <div class="card-main">
+                        <div class="card-sliding">
+                            <div class="card">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">May 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">june 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">july 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">aug 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">sep 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="left-right-arrow d-block d-lg-none d-sm-none ml-small-0 text-center-sm cursor-pointer">
-                    <i class="bi bi-arrow-left-circle"></i>
-                    <span><i class="bi bi-arrow-right-circle"></i></span>
+                <div class="-mt-64 -mt-25 ml-144 ml-small-0 mt-small-30 d-block d-lg-none">
+                    <div class="card-main-sm">
+                        <div class="card-sliding-sm">
+                            <div class="card-sm">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">May 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-sm">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">june 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-sm">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">july 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-sm">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">aug 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-sm">
+                                <div class="news-img-left ml-5p ml-small-0 mr-small-0 position-relative">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1 bottom-small-66 left-small-15">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">sep 2020</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content left-small-15 bottom-small-88 right-small-0">
+                                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This
+                                                Bengaluru-based
+                                                home
+                                                textiles
+                                                company makes Rs 75 Cr
+                                                turnover, eyes Rs 500 Cr.</div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 d-none d-lg-block">
-                <div class="mt-60">
-                    <div class="news-img-right">
-                        <div class="news-img w-100 h-500">
+            <div class="col-lg-6 col-12 ">
+                <div class="mt-60 ml-5 d-none d-lg-block">
+                    <div class="card-mains">
+                        <div class="card-slidings">
+                            <div class="cards">
+                                <div class="news-img-right">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">May 2019</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content">
+                                            <div class="sticker-content-text">Ascent Decor: Emerging with a new vison
+                                            </div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="news-img-right">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">june 2019</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content">
+                                            <div class="sticker-content-text">Ascent Decor: Emerging with a new vison
+                                            </div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="news-img-right">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">july 2019</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content">
+                                            <div class="sticker-content-text">Ascent Decor: Emerging with a new vison
+                                            </div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="news-img-right">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">aug 2019</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content">
+                                            <div class="sticker-content-text">Ascent Decor: Emerging with a new vison
+                                            </div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="news-img-right">
+                                    <div class="news-img w-100 h-500">
+                                        <div class="sticker-1">
+                                            <div class="sticker-bg">
+                                                <h4 class="sticker-text">sep 2019</h4>
+                                            </div>
+                                        </div>
+                                        <div class="sticker-content">
+                                            <div class="sticker-content-text">Ascent Decor: Emerging with a new vison
+                                            </div>
+                                            <div class="text-left m-10-auto-25">
+                                                <button class="cursor-pointer sticker-btn">
+                                                    Read More <span><img src="./images/gold-right.png" class="ml-2"
+                                                            width="45" height="12"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="sticker-2">
-                        <div class="sticker-bg">
-                            <h4 class="sticker-text">May 2019</h4>
-                        </div>
-                    </div>
-                    <div class="sticker-content-right">
-                        <div class="sticker-content-text">Ascent Decor: Emerging with a new vison </div>
-                        <div class="text-left m-10-auto-25">
-                            <button class="cursor-pointer sticker-btn">
-                                Read More <span><img src="./images/gold-right.png" class="ml-2" width="45" height="12"></span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="left-right-arrow cursor-pointer">
-                        <i class="bi bi-arrow-left-circle"></i>
-                        <span><i class="bi bi-arrow-right-circle"></i></span>
-                    </div>
+                </div>
+                <div class="left-right-arrow ml-small-0 text-center-sm cursor-pointer">
+                    <i class="btn-card bi bi-arrow-left-circle" id="previous"></i>
+                    <span><i class="btn-card bi bi-arrow-right-circle" id="next"></i></span>
                 </div>
             </div>
         </div>
@@ -268,34 +782,39 @@
             <div class="col-12">
                 <div class="news-img-right w-100 m-0 bg-transparent-lg bg-222222-small">
                     <div class="news-img w-100 h-500">
-                    </div>
-                </div>
-                <div class="sticker-3">
-                    <div class="sticker-bg">
-                        <h4 class="sticker-text d-none d-lg-block d-sm-block">Aug 2020</h4>
-                        <h4 class="sticker-text d-block d-lg-none d-sm-none">May 2020</h4>
-                    </div>
-                </div>
-                <div class="blog-sticker-content d-none d-lg-block d-sm-block">
-                    <div>
-                        <div class="sticker-content-text">The reckoning force in the world of <br> furnishing fabrics
+                        <div class="sticker-3">
+                            <div class="sticker-bg">
+                                <h4 class="sticker-text d-none d-lg-block d-sm-block">Aug 2020</h4>
+                                <h4 class="sticker-text d-block d-lg-none d-sm-none">May 2020</h4>
+                            </div>
                         </div>
-                        <div class="text-left m-10-auto-25">
-                            <button class="cursor-pointer sticker-btn">
-                                Read More <span><img src="./images/gold-right.png" class="ml-2" width="45" height="12"></span>
-                            </button>
+                        <div class="blog-sticker-content d-none d-lg-block d-sm-block">
+                            <div>
+                                <div class="sticker-content-text">The reckoning force in the world of <br> furnishing
+                                    fabrics
+                                </div>
+                                <div class="text-left m-10-auto-25">
+                                    <button class="cursor-pointer sticker-btn">
+                                        Read More <span><img src="./images/gold-right.png" class="ml-2" width="45"
+                                                height="12"></span>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="sticker-content left-small-9 mr-small-10 bottom-small-88 right-small-0 d-block d-lg-none d-sm-none">
-                    <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This Bengaluru-based home
-                        textiles
-                        company makes Rs 75 Cr
-                        turnover, eyes Rs 500 Cr.</div>
-                    <div class="text-left m-10-auto-25">
-                        <button class="cursor-pointer sticker-btn">
-                            Read More <span><img src="./images/gold-right.png" class="ml-2" width="45" height="12"></span>
-                        </button>
+                        <div
+                            class="sticker-content pt-88 left-small-9 mr-small-10 bottom-small-88 right-small-0 d-block d-lg-none d-sm-none">
+                            <div class="sticker-content-text mr-small-18 fs-small-20 lh-small-30">This Bengaluru-based
+                                home
+                                textiles
+                                company makes Rs 75 Cr
+                                turnover, eyes Rs 500 Cr.</div>
+                            <div class="text-left m-10-auto-25">
+                                <button class="cursor-pointer sticker-btn">
+                                    Read More <span><img src="./images/gold-right.png" class="ml-2" width="45"
+                                            height="12"></span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="left-right-arrow-blog text-center-sm position-small-unset cursor-pointer ">
@@ -306,6 +825,7 @@
         </div>
     </div>
 
+    <script src="script.js"></script>
     <!-- Bootstrap-Js -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
