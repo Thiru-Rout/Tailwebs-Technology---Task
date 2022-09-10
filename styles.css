@@ -333,6 +333,10 @@ li {
   margin-left: 60px;
 }
 
+.text-slide{
+  transition: transform 0.25s !important;
+}
+
 .card-main {
   align-items: center;
   display: flex;
